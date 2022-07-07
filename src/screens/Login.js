@@ -16,15 +16,15 @@ function Login() {
                         </div>
                         <div style={{
                             width: "10%",
-                            textAlign: "center", color: "#EBEBEB"
+                            textAlign: "center", color: "#353636"
                         }}> or</div>
                         <div style={{ width: "45%", color: "#353636" }} >
                             <hr />
                         </div>
                     </div>
                     <div width="100">
-                        <p style={{ color: "#C4C4C4", fontWeight: "bold", marginBottom: "5px", marginTop: "22px", fontSize: "12px" }}>EMAIL</p>
-                        <input type="text" class="form-control" style={styles.loginInput} />
+                        <p  style={{ color: "#C4C4C4", fontWeight: "bold", marginBottom: "5px", marginTop: "22px", fontSize: "12px" }}>EMAIL</p>
+                        <input placeholder='example@mail.com'  type="text" class="form-control" style={styles.loginInput} />
                         <p style={{ color: "#C4C4C4", fontWeight: "bold", marginBottom: "5px", marginTop: "22px", fontSize: "12px" }}>PASSWORD</p>
                         <input type="password" class="form-control" style={styles.loginInput} />
                     </div>
@@ -32,10 +32,19 @@ function Login() {
 
                         Login with Email
                     </button>
-                    <a style={{
-                        color: "#999999",
-                        marginTop: "10px"
-                    }} href="#">Forgot Password</a>
+                    <div style={{
+                        paddingRight: "auto",
+                        paddingLeft: "auto",
+                        width: "100%",
+                        marginTop: "10px",
+                        textAlign: "center"
+                    }}>
+                        <a style={{
+                            color: "#999999",
+
+
+                        }} href="#">Forgot Password</a>
+                    </div>
                 </div>
             </div>
         </div >
@@ -89,7 +98,7 @@ const styles = {
     },
     loginInput: {
         backgroundColor: "#EFEFEF",
-        borderColoe: "#EFEFEF"
+        borderColor: "#EFEFEF"
     }
 
 }

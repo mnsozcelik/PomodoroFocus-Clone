@@ -19,7 +19,7 @@ const styles = {
     height: "100%",
     width: "100%",
     position: "fixed",
-    overflow: "scroll"
+    overflowY: "scroll"
   }
 
 }
